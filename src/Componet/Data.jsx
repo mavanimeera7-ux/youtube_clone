@@ -174,6 +174,7 @@ function Data() {
     <div className='bg-gray-200 w-full'>
       <div className='container mx-auto'>
         <div className="flex flex-wrap ms-40 gap-x-9 gap-y-10 p-6 bg-gray-200">
+          
           {data.map((val, index) => (
             <div key={index} className="w-80">
               <img className="rounded-xl w-full mb-3" src={val.img1} alt="thumbnail" />
